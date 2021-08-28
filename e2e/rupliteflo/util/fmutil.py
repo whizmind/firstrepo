@@ -185,8 +185,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument('-json', '--jsonfile', help='json file to be posted', required=True)
 ap.add_argument('-envfile', '--envfile', help='FLO env file', required=True)
 args = ap.parse_args()
-fmservice = FMService(args.jsonfile, args.envfile)
-sys.exit(fmservice.run_fm_post())
+fmservice111 = FMService(args.jsonfile, args.envfile)
+sys.exit(fmservice111.run_fm_post())
 
 #this is dev branch file
-bug in dev
